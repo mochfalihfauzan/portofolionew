@@ -238,7 +238,8 @@ nav a {
 }
 
 #portfolios .main-container .card {
-  width: 60%;
+  width: 100%;
+
   margin: 0 auto;
 }
 
@@ -368,12 +369,23 @@ nav a {
   margin-bottom: 2rem;
 }
 .skill-right {
-  margin: 0 1rem 0 0;
+  width: 80%;
+  /* margin: 0 1rem 0 0; */
+}
+.skill-left {
+  width: 80%;
+  /* margin: 0 1rem 0 0; */
 }
 
 .skills-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
 }
 
 .skills-list ul {
@@ -395,8 +407,13 @@ nav a {
 .contact-form div {
   margin-bottom: 1.4rem;
 }
-form {
-  margin: 0 2rem 0 0;
+
+.contact-left {
+  width: 80%;
+}
+
+.contact-right {
+  width: 80%;
 }
 
 .contact-form input,
