@@ -111,6 +111,12 @@
   footer {
     padding: 2rem 0;
   }
+
+  /* typing effect */
+  .container h1 {
+    padding: 0.5rem 0;
+    text-align: center;
+  }
 }
 
 /* Mobile Phone */
@@ -149,6 +155,12 @@
 
   #portfolios .main-container .card .btn {
     font-size: 0.7rem;
+  }
+
+  /* typing effect */
+  .container h1 {
+    padding: 0.5rem 0;
+    text-align: center;
   }
 }
 

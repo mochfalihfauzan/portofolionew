@@ -176,6 +176,13 @@ nav a {
   margin: 0.5rem 0 1rem;
 }
 
+.typing-effect {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.5rem 0 1rem;
+  color: var(--secondary);
+}
+
 .hero-right img {
   width: 90%;
 }
@@ -499,4 +506,45 @@ footer {
 
 .footer-icon a:hover svg {
   fill: #000;
+}
+
+/* typing effect */
+.container h1 {
+  font-size: 2rem;
+  /* padding: 0.5rem; */
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  text-align: left;
+  overflow: hidden;
+}
+.container h1 span.typed-text {
+  font-weight: normal;
+  color: var(--secondary);
+}
+.container h1 span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container h1 span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
 }
